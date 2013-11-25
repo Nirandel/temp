@@ -9,5 +9,21 @@ find ~/ -mtime -10 -maxdepth 1
 ```ssh
 find -type f -name \*conf\*
 ```
+lub (do sprawdzenia)
 
+```ssh
+find -type f -name \*conf\* 2> /dev/null
+```
+
+3\. Znajdź w swoim katalogu domowym wszystkie pliki, które nie były używane w ciągu ostatnich 20 dni.
+
+```ssh
+find ~/ -mtime -20
+```
+
+4\. Znajdź w katalogu /etc wszystkie niepuste podkatalogi i pliki o nazwach zaczynających się na literę „a”.
+
+```ssh
+
+```
 
