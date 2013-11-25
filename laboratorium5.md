@@ -32,3 +32,5 @@ find . -atime +20 -type f
 ```ssh
 rm x??
 ```
+
+// Uważaj na polecenie ```ssh rm * ``` - polecenie kasuje wszystko (poza opcją) (do wyjasnienia) 
