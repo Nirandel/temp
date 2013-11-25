@@ -33,4 +33,11 @@ find . -atime +20 -type f
 rm x??
 ```
 
-// Uważaj na polecenie ```ssh rm * ``` - polecenie kasuje wszystko (poza opcją) *(do wyjasnienia)*
+// Uważaj na polecenie ```ssh rm * ``` - polecenie kasuje wszystko (poza opcją) (do wyjasnienia)
+
+
+6\. Skonstruuj polecenie tworzące katalog, którego nazwą będzie aktualna (w momencie wywołania) systemowa data w formacie rrrr-mm-dd.
+
+```ssh
+mkdir `date +%Y-%m-%d`
+```
