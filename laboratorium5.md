@@ -33,4 +33,4 @@ find . -atime +20 -type f
 rm x??
 ```
 
-// Uważaj na polecenie ```ssh rm * ``` - polecenie kasuje wszystko (poza opcją) (do wyjasnienia) 
+// Uważaj na polecenie ```ssh rm * ``` - polecenie kasuje wszystko (poza opcją) [b](do wyjasnienia)[/b] 
