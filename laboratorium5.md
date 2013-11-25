@@ -27,3 +27,8 @@ find . -atime +20 -type f
 
 ```
 
+5\. Z bieżącego katalogu usuń pliki, których nazwa zaczyna się na literę „x” i zawiera dokładnie trzy znaki.
+
+```ssh
+rm x??
+```
