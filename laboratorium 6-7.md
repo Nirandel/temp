@@ -10,7 +10,7 @@ Wersja poprawiona:
 
 
 ```
- grep "[^[:space:][:cntrl:]]" testowy.txt
+ grep -n "[^[:space:][:cntrl:]]" testowy.txt
 ```
 
 
