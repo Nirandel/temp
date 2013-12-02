@@ -6,6 +6,14 @@ Zadanie 1. W pliku „plik.txt” znajdź wiersze zawierające co najmniej jeden
 grep "[[:alnum:]{1,}]" testowy.txt
 ```
 
+Wersja poprawiona:
+
+
+```
+ grep "[^[:space:][:cntrl:]]" testowy.txt
+```
+
+
 
 Zadanie 2. Znajdź w plikach „pl*” wiersze rozpoczynające się od cyfry.
 
